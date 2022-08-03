@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Josefin Sans','Oswald','Signika Negative', sans-serif;
+}
+
+
+#main #main-infor{
+    width: 85%;
+    height: 850px;
+    float: right;
+    background-color: rgb(18,15,32);
+    display: flex;
+}
+
+#main-infor{
+
+}
+
+#main-infor .search-container {
+    float: left;
+    margin: 30px 0 0 40px;
+    display: inline-block;
+}
+
+.search-container .search-change{
+    background-color: rgba(32,27,57,0.8);
+    width: 400px;
+    height: 30px;
+    border-style: none;
+}
+
+#slider{
+    display: inline-block;
+}
+
+#main-infor .in-slider{
+    width: 700px;
+    float: right;
+    margin: 90px 0 0 -400px;
+}
+
+#sidebar-left{
+    width: 15%;
+    height: 850px;
+    background-color: rgba(27,23,46);
+    position: fixed;
+}
+
+
